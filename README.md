@@ -27,5 +27,10 @@ To use this repository:
 ## Contributing
 Contributions to this project are welcome. Please feel free to fork the repository, make your changes, and submit a pull request.
 
+## Citation
+If you use the code or data in this repository in your work, please cite the following paper:
+
+Kazim, M., Pirim, H. (2024). Link Prediction and Navigability of Multiplex Energy Networks. *ASC Conference*. Available at: https://www.sciencedirect.com/science/article/pii/SxxxxxxxXxxxxxxxxx
+
 ## Contact
-kazim01011@yahoo.com
+muhammad.kazim@ndsu.edu

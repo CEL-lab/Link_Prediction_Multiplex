@@ -8,13 +8,21 @@ This project applies advanced link prediction techniques to multiplex networks, 
 - **Navigability_RW_Strategies.R**: This script contains various navigability and random walk strategies that can be applied to the predicted edges. While the project currently implements classical, PageRank, and diffusive strategies, the code is also equipped to handle other random walk strategies, depending on the feasibility of the network.
 
 ### Data
-The data directory contains five Excel sheets, each representing a different layer of the multiplex network. These sheets are crucial for the analysis and are used by the code to perform link prediction and navigability studies.
+The data directory contains a comprehensive dataset modeled on Belgium's electricity and gas infrastructures, organized into five Excel sheets representing different layers of the multiplex network. Each sheet is crucial for the analysis and is utilized by the code to perform link prediction and navigability studies.
 
+**Dataset Details**:
 - **Case_1.xlsx**
 - **Case_2.xlsx**
 - **Case_3.xlsx**
 - **Case_4.xlsx**
 - **Case_5.xlsx**
+
+Each file includes node information such as IDs, types (electric or gas), and connections, representing unique scenarios for network shutdowns simulated using SAInt software. The dataset is derived from model-ready datasets provided by Encord, which can be further explored for additional context and details [here](https://www.encoord.com/solutions/model-ready-datasets).
+
+**Preprocessing Steps**:
+- Data Cleaning: Removal of any inconsistencies or missing data entries.
+- Data Normalization: Scaling of numerical fields to ensure consistency across different measurements.
+- Scenario Simulation: Configuration of parameters for shutdown scenarios to reflect realistic disruptions in network functionality.
 
 ## Getting Started
 To use this repository:
